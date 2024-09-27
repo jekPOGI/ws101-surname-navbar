@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/github.io/ws101-surname-navbar/static/css/main.5c37e57e.css",
+    "main.js": "/github.io/ws101-surname-navbar/static/js/main.4b77948a.js",
+    "static/js/453.1b179f94.chunk.js": "/github.io/ws101-surname-navbar/static/js/453.1b179f94.chunk.js",
+    "index.html": "/github.io/ws101-surname-navbar/index.html",
+    "main.5c37e57e.css.map": "/github.io/ws101-surname-navbar/static/css/main.5c37e57e.css.map",
+    "main.4b77948a.js.map": "/github.io/ws101-surname-navbar/static/js/main.4b77948a.js.map",
+    "453.1b179f94.chunk.js.map": "/github.io/ws101-surname-navbar/static/js/453.1b179f94.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c37e57e.css",
+    "static/js/main.4b77948a.js"
+  ]
+}
