@@ -1,0 +1,32 @@
+/* Overall Background */
+body {
+  background-color: #000; /* Dark background */
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* App Container */
+.app {
+  text-align: center;
+}
+
+/* Neon Title Styling */
+h2 {
+  animation: neon-glow 1.5s ease-in-out infinite alternate;
+}
+
+/* Neon Glow Animation */
+@keyframes neon-glow {
+  0% {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ff69b4, 0 0 20px #ff69b4; /* Light pink */
+  }
+  100% {
+    text-shadow: 0 0 10px #fff, 0 0 20px #add8e6, 0 0 30px #add8e6; /* Light blue */
+  }
+}

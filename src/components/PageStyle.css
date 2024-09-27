@@ -1,0 +1,30 @@
+.page-container {
+    background-color: #e36464; /* Dark background */
+    color: #ffffff; /* White text */
+    min-height: 100vh; /* Full height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out; /* Fade-in animation */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+h2 {
+    color: #ffff00; /* Neon yellow color */
+}
+
+p {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #ffffff; /* Ensure paragraph text is white */
+}

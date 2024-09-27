@@ -1,0 +1,51 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121212; /* Dark background */
+    padding: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+}
+
+.logo {
+    color: #ffffff; /* White text for the logo */
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 1.5rem;
+    position: relative; /* For the hover effect */
+}
+
+.nav-links a {
+    color: #ffffff; /* White text for links */
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease; /* Smooth transition for color */
+}
+
+.nav-links a:hover {
+    color: #00ffcc; /* Neon effect on hover */
+}
+
+.nav-links li::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: #00ffcc; /* Neon underline */
+    transition: width 0.4s ease, left 0.4s ease;
+}
+
+.nav-links li:hover::after {
+    width: 100%;
+    left: 0;
+}
